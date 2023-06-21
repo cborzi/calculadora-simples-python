@@ -1,0 +1,12 @@
+import math
+
+def calcular():
+    expressao = input("Digite a expressão matemática: ")
+
+    try:
+        resultado = eval(expressao)
+        print("Resultado: ", resultado)
+    except Exception as e:
+        print("Erro: ", str(e))
+
+calcular()
